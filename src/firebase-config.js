@@ -13,7 +13,7 @@ const config = {
   storageBucket: "friendlychat-1f919.appspot.com",
   messagingSenderId: "121443268441",
   appId: "1:121443268441:web:887420546d0832f0f73e48"
-};;
+};
 
 export function getFirebaseConfig() {
   if (!config || !config.apiKey) {
